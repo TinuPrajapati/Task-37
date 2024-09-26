@@ -1,14 +1,11 @@
-import { Outlet } from "react-router-dom"
-import Form from "./Component/form"
-
+import { Outlet } from "react-router-dom";
 
 function App() {
-
   return (
     <>
-      <Outlet/>
+      <Outlet />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
